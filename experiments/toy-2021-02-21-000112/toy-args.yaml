@@ -1,0 +1,9 @@
+!!python/object:argparse.Namespace
+dimensionality: 2
+n_iterations: 20
+n_repeats: 5
+n_samples_per_iteration: 5
+objective: CircularObjective
+output_directory: experiments/toy-2021-02-21-000112
+seed: null
+show_plots: false

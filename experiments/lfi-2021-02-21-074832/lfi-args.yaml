@@ -1,0 +1,7 @@
+!!python/object:argparse.Namespace
+n_iterations: 20
+n_repeats: 5
+n_samples_per_iteration: 10
+output_directory: experiments/lfi-2021-02-21-074832
+seed: null
+show_plots: false

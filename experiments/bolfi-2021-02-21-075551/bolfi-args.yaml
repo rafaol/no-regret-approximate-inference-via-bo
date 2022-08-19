@@ -1,0 +1,7 @@
+!!python/object:argparse.Namespace
+n_iterations: 200
+n_repeats: 1
+n_samples_per_iteration: 1
+output_directory: experiments/bolfi-2021-02-21-075551
+seed: null
+show_plots: false
