@@ -1,0 +1,9 @@
+!!python/object:argparse.Namespace
+dimensionality: 1
+n_iterations: 100
+n_repeats: 10
+n_samples_per_iteration: 5
+objective: RKHSObjective
+output_directory: /tmp/dbo/
+seed: null
+show_plots: false
