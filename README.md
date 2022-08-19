@@ -4,8 +4,12 @@ and scripts to reproduce experiment results in the paper published at
 the 37th conference on Uncertainty in Artificial Intelligence (UAI 2021). The
 paper can be found at: https://proceedings.mlr.press/v161/oliveira21a
 
-<img src="cartpole-posterior.png" alt="Cartpole posterior" width="300"/> 
-<img src="cartpole-dbo-approximation.png" alt="DBO approximation" width="300"/> 
+<table>
+ <tr>
+  <td><img src="cartpole-posterior.png" alt="Cartpole posterior" width="300"/></td>
+  <td><img src="cartpole-dbo-approximation.png" alt="DBO approximation" width="300"/></td>
+ </tr>
+</table>
 
 ## Requirements
 The code is based on Python 3.7, and it was run on a Ubuntu/Linux machine. To run the code, we recommend creating a Python 3.7 virtual environment, with e.g.
@@ -49,12 +53,20 @@ and the samples are available in a pickle file: `ABC-result-CartPole-Gaussian-pr
 A Jupyter notebook `analysis.ipynb` is provided with code to plot the experiment results in the paper.
 The notebook loads the provided raw output files in `experiments/`.
 
-<img src="cr-version/final-approximation-figure/dbo-approximation.png" alt="Posterior approximation" width="300"/> 
-<img src="toy-regret.png" alt="Toy regret" width="300"/>
-
-<img src="cartpole-posterior.png" alt="Cartpole posterior" width="300"/> 
-<img src="lfi-regret.png" alt="Likelihood-free inference regret" width="300"/>
- 
+<table>
+ <tr>
+  <td>Objective (Posterior distribution)</td>
+  <td>Regret (KL divergence)</td>
+ </tr>
+ <tr>
+  <td><img src="cr-version/final-approximation-figure/dbo-approximation.png" alt="Posterior approximation" width="300"/></td>
+  <td><img src="toy-regret.png" alt="Toy regret" width="300"/></td>
+ </tr>
+ <tr>
+  <td><img src="cartpole-posterior.png" alt="Cartpole posterior" width="300"/></td>
+  <td><img src="lfi-regret.png" alt="Likelihood-free inference regret" width="300"/></td>
+ </tr>
+</table>
 
 ## Citations
 In APA format, the paper can be cited as:
