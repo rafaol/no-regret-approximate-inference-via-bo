@@ -19,6 +19,11 @@ The code is based on Python 3.7, and it was run on a Ubuntu/Linux machine. To ru
 pip install -r requirements.txt
 ```
 
+In addition, the experiment scripts also require third-party code from the
+[ITE package](https://bitbucket.org/szzoli/ite-in-python/), provided under `third_party/`,
+which needs to be installed separately
+(e.g., by running `pip install -e .` under the package's main directory `third_party/ite-in-python`). 
+
 ## Experiments
 Experiment scripts are found in the main directory. Command-line options for each script can be listed via the `--help` option.
 All scripts allow specifying the number of repetitions and iterations 
