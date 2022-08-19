@@ -38,12 +38,14 @@ python toy_experiment.py
 
 ### VBMC comparisons
 Comparisons against the variational Bayesian Monte Carlo (VBMC) framework by Acerbi (2018)
-were run using MATLAB code provided by the original author. 
+were run using MATLAB code provided by the original author at: https://github.com/lacerbi/vbmc. 
 However, settings were adjusted to turn off post-processing steps in order to provide a fair comparison of the
-basic approach against KL-UCB, which runs no pre-processing nor automatic fine-tuning by default.
-The results obtained by VBMC under these conditions are provided in:
+basic approach against KL-UCB, which runs no post-processing nor automated fine-tuning steps by default. 
+MATLAB scripts to run the experiments is provided under `vbmc/`.
+The results obtained by running VBMC under these conditions are provided in:
 - `experiments/uai2021_vbmc_experiments_circle` for the circular likelihood;
 - and `experiments/uai2021_vbmc_experiments_lumpy` for the "lumpy" likelihood.
+
 
 ### Likelihood-free inference
 The likelihood-free inference experiments on inferring the mass and length of the pole
