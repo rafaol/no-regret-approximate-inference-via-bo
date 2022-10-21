@@ -29,6 +29,7 @@ Experiment scripts are found in the main directory. Command-line options for eac
 All scripts allow specifying the number of repetitions and iterations 
 and setting the output directory. By default, results are recorded under `experiments/`
 with a directory name formed by a script-dependent prefix followed by a timestamp suffix.
+**Note:** The experimental data, including the computed performance scores, obtained to plot the results in the paper has also been provided as PyTorch files under `experiments/`. However, we describe below the steps for reproduction.
 
 ### Toy experiment
 You can run the toy experiment in the paper with:
